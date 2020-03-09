@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import sky1 from '../media/sky1.jpg';
 import choir from '../media/choir.mp3';
 import ReactHowler from 'react-howler';
@@ -18,10 +18,9 @@ function Cured(props) {
           `}</style>
 
 
-        <div className='' onClick={props.onMusicToggle}>
+        <div className='cured-div' onClick={props.onMusicToggle}>
           <h1 className='you-are'>You are</h1>
-          <h1 className='cured'>Cured</h1>
-
+      <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured'  to="/">CURED</NavLink>
         </div>
 
         <ReactHowler

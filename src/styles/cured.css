@@ -12,16 +12,19 @@
   font-family: 'Shadows Into Light';
   color: white;
   font-size: 3rem;
-  padding-top: 30%;
+  padding-top: 25%;
   line-height: 0;
 }
 
+.cured-div{
+  text-align: center;
+}
+
 .cured{
-        text-align: center;
   font-family: 'Shadows Into Light';
   color: white;
   font-size: 12rem;
-  line-height: 90px;
+  line-height: 12rem;
   text-shadow: 2px 2px 15px #feffb3;
   text-decoration: none;
 }

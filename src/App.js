@@ -38,7 +38,9 @@ render(){
 
 
         <Route path="/cured" component={ Cured } />
+
         <Route path="/about" component={ About } />
+
         <Route path="/login" component={ Login } />
         <Route path="/video1" component={ Video1 } />
         <Route path="/tvideo1" component={ TVideo1 } />

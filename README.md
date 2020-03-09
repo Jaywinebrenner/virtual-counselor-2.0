@@ -46,6 +46,7 @@ function imageDeglow(e) {
    - React-Router
    - React-Howler
    - React-Linkify
+   - Amazon S3 Cloud Storage
 
   ### Support and Contact
 

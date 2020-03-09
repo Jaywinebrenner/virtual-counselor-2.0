@@ -9,18 +9,14 @@ import CounselorDisplay from './CounselorDisplay'
 
 
 function Home(props){
-  console.log(props);
-
-
 
   return (
     <div style={{ backgroundImage:`url(${sky1})` }} className="home-body">
-    <Header/>
 
     <style jsx>{`
 
       `}</style>
-
+    <Header/>
       <div className='middle-div'>
         <h1 className='welcome'>Welcome to</h1>
         <h1 className='vc-header'>Virtual Counselor</h1>
