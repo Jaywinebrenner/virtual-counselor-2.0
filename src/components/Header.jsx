@@ -7,10 +7,11 @@ import {
   TransitionGroup,
   CSSTransition
 } from "react-transition-group";
+import PropTypes from 'prop-types';
 
-const Header = () => {
+const Header = (props) => {
 
-  function change(e) {
+  function handleFadeOut(e) {
     e.target.style.color = 'black';
   }
 
@@ -25,10 +26,10 @@ const Header = () => {
       <FaRegHandshake className='left-hand-icon'/>
 
 <Switch>
-      <NavLink  onMouseOver={change} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
+      <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
     </Switch>
 
-      <NavLink onMouseOver={change} onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
+      <NavLink  onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
 
       <FaRegHandshake className='hand-icon'/>
       </div>
@@ -38,5 +39,10 @@ const Header = () => {
   )
 
 }
+
+Header.propTypes = {
+onFadeOut: PropTypes.func
+
+};
 
 export default Header

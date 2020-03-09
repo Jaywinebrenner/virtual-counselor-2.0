@@ -1,23 +1,10 @@
-MERGE TEST
-
-onTroubleshootingConfirmation={this.handleTroubleshootingConfirmation}
-<Route
-  path='/dashboard'
-  render={(props) => <Dashboard {...props} isAuthed={true} />}
-/>
-
-function imageGlow(e) {
-      e.target.classList.remove = 'lindsey-glow-onhover';
-  e.target.classList.add('lindsey-glow-onhover');
-}
-function imageDeglow(e) {
-  e.target.classList.remove('lindsey-glow-onhover')
+# Virtual Counselor
 
 
 
-  # Virtual Counselor
+  ![enter image description here](https://i.imgur.com/thM8V59.gif)
 
-  ## By **Jay Winebrenner**
+## By **Jay Winebrenner**
 
   ### Description
   A Web Application that purports to offer counseling yet takes the user on an unusual journey based on input. Virtual Counselor is an App that Jay Winebrenner made during his tenure studying software development at Epicodus in Portland, Oregon in an effort to incorporate his filmmaking past with his new found coding endeavors. He used React to make this. Email him if you want. About anything.
@@ -26,6 +13,8 @@ function imageDeglow(e) {
 
   ### Setup/Installation Requirements
   ![enter image description here](https://i.imgur.com/KW12jKcl.jpg)
+
+
 
 1. Click the link shown in the above photo and download the file.
 2. Unzip the file and navigate to the folder via your terminal or command line application.
