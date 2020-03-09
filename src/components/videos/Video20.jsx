@@ -35,7 +35,7 @@ const Video19 = () => {
           `}</style>
 
         <ResponsivePlayer
-          url='https://www.youtube.com/watch?v=zSH_s-225Sk'
+          url=''
           onProgress={handleWatchComplete}
           />
 

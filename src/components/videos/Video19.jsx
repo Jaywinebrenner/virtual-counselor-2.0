@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ResponsivePlayer from '../ResponsivePlayer';
 import { Redirect } from 'react-router-dom';
-import JSix_One from '../../media/joeclips/6.anger.1.mp4';
 import chime3 from '../../media/chime3.mp3';
 import ReactHowler from 'react-howler';
 import roomtone from '../../media/roomtone4.mp3';
@@ -33,12 +32,12 @@ const Video19 = () => {
             height: 250vh;
           }
 
-          
+
 
           `}</style>
 
         <ResponsivePlayer
-          url={JSix_One}
+          url='https://virtual-counselor-video.s3-us-west-2.amazonaws.com/6.anger.1.mp4'
           onProgress={handleWatchComplete}
           />
 
