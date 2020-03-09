@@ -32,9 +32,9 @@ const Questions8 = () => {
           `}</style>
 
         <div className='question-div'>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video13">I'm ready for the next Question, Dr. Gunderson</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video13">I'm ready for the next Question, Dr. Gunderson</NavLink>
           <br></br>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video4">Leave Session</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video4">Leave Session</NavLink>
 
 
         </div>
