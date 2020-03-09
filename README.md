@@ -37,7 +37,7 @@ function imageDeglow(e) {
 
 
 
-  ### ReactJS Schema:
+  ### ReactJS Component Schema:
   ![enter image description here](https://i.imgur.com/Ng0pIKI.png)
 
   ### Technologies Used
