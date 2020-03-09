@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+
+.cured-body {
+  height: 110vh;
+  background-position: center center;
+}
+
+.you-are {
+  text-align: center;
+  font-family: 'Shadows Into Light';
+  color: white;
+  font-size: 3rem;
+  padding-top: 30%;
+  line-height: 0;
+}
+
+.cured{
+        text-align: center;
+  font-family: 'Shadows Into Light';
+  color: white;
+  font-size: 12rem;
+  line-height: 90px;
+  text-shadow: 2px 2px 15px #feffb3;
+  text-decoration: none;
+}
