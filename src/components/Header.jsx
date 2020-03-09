@@ -21,7 +21,7 @@ const Header = () => {
       <FaRegHandshake className='left-hand-icon'/>
       <Link  onMouseOver={change} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</Link>
       <Link onMouseOver={change} onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</Link>
-      <Link onMouseOver={change} onMouseOut={removeChange} className='navbar-text'style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/login">Login</Link>
+
       <FaRegHandshake className='hand-icon'/>
       </div>
 

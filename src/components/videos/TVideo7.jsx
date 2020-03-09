@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ResponsivePlayer from '../ResponsivePlayer';
 import { Redirect } from 'react-router-dom';
-import TTwo_Four from '../../media/tanyaclips/T2.4.mp4';
 import chime3 from '../../media/chime3.mp3';
 import roomtone from '../../media/roomtone4.mp3';
 import ReactHowler from 'react-howler';
@@ -35,7 +34,7 @@ const TVideo4 = () => {
           `}</style>
 
         <ResponsivePlayer
-          url={TTwo_Four}
+          url='https://virtual-counselor-video.s3-us-west-2.amazonaws.com/T2.4.mp4'
           onProgress={handleWatchComplete}
           />
 
