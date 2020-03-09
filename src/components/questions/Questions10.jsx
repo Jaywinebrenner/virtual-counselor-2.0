@@ -31,13 +31,13 @@ const Questions10 = () => {
           `}</style>
 
         <div className='question-div'>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video17">I'm ready for my next question Mr. Gunderson</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video17">I'm ready for my next question Mr. Gunderson</NavLink>
           <br></br>
-            <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video6">I'm anxious</NavLink>
+            <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video6">I'm anxious</NavLink>
               <br></br>
-                <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video19">I'm angry</NavLink>
+                <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video19">I'm angry</NavLink>
             <br></br>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video4">I'm done with this</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video4">I'm done with this</NavLink>
 
 
 
