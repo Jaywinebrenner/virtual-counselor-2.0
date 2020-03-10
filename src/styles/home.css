@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
 .home-body {
-  height: 190vh;
-  width: 100vh;
+  height: 180vh;
+  width: 100%;
   background-position: center center;
 }
 
