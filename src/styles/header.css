@@ -5,3 +5,36 @@
   text-align: center;
   line-height: 55px;
 }
+
+.navbar-about-text {
+  -webkit-animation: text-shadow-drop-center 0.6s both;
+  animation: text-shadow-drop-center 0.6s both;
+}
+
+.hand-icon{
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.left-hand-icon{
+  width: 80px;
+  margin-bottom: 10px;
+  margin-right: 3rem;
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}

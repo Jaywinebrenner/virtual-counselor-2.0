@@ -19,21 +19,20 @@ const Header = (props) => {
     e.target.style.color = 'gray';
   }
 
-
   return(
     <div>
       <div className='navbar-wrapper'>
       <FaRegHandshake className='left-hand-icon'/>
 
-<Switch>
-      <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
-    </Switch>
+      <Switch>
+        <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
+      </Switch>
 
-      <NavLink  onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
+      <NavLink  onMouseOut={removeChange} className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '3rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
 
       <FaRegHandshake className='hand-icon'/>
       </div>
-
+    
     </div>
 
   )
@@ -41,7 +40,7 @@ const Header = (props) => {
 }
 
 Header.propTypes = {
-onFadeOut: PropTypes.func
+  onFadeOut: PropTypes.func
 
 };
 
