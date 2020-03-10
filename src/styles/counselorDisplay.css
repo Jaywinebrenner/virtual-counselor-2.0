@@ -5,6 +5,11 @@
   border-radius: 5px;
 }
 
+.please-choose-div{
+  text-align: center;
+  padding-bottom: 300px;
+}
+
 .counselor-column-lindsey{
   text-align: center;
 }
@@ -57,9 +62,4 @@
 .credentials-lindsey{
   line-height: .5;
   margin-left: 70px;
-}
-
-.please-choose-div{
-  text-align: center;
-  padding-bottom: 300px;
 }
