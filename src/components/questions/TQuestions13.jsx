@@ -34,9 +34,9 @@ const TQuestion13 = () => {
           `}</style>
 
         <div className='question-div'>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo21">Yes</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo21">Yes</NavLink>
           <br></br>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303' }} to="/TVideo22">No, I didn't pretend to to sell Puma's in my store</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303' }} to="/TVideo22">No, I didn't pretend to to sell Puma's in my store</NavLink>
         </div>
 
         <ReactHowler

@@ -32,10 +32,10 @@ const Questions13 = () => {
           `}</style>
 
         <div className='question-div'>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video6">Yes, I'm sure</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video6">Yes, I'm sure</NavLink>
           <br></br>
 
-              <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/Video13">I suppose I'm feeling a little depressed</NavLink>
+              <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/Video13">I suppose I'm feeling a little depressed</NavLink>
 
 
 

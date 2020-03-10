@@ -26,10 +26,10 @@ const Header = (props) => {
       <FaRegHandshake className='left-hand-icon'/>
 
 <Switch>
-      <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
+      <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
     </Switch>
 
-      <NavLink  onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
+      <NavLink  onMouseOut={removeChange} className='navbar-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
 
       <FaRegHandshake className='hand-icon'/>
       </div>

@@ -34,9 +34,9 @@ const TQuestions4 = () => {
           `}</style>
 
         <div className='question-div'>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo8">Continue being Virtually Counseled</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo8">Continue being Virtually Counseled</NavLink>
           <br></br>
-          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303' }} to="/TVideo4">4 - 7</NavLink>
+          <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303' }} to="/TVideo4">4 - 7</NavLink>
         </div>
 
         <ReactHowler

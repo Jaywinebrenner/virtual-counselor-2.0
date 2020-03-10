@@ -34,11 +34,11 @@ const TQuestions3 = () => {
       `}</style>
 
       <div className='question-div'>
-      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo5">1 time a week</NavLink>
+      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px' }} to="/TVideo5">1 time a week</NavLink>
       <br></br>
-      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303' }} to="/TVideo6">2 - 3 times a week</NavLink>
+      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303' }} to="/TVideo6">2 - 3 times a week</NavLink>
       <br></br>
-      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.7rem', color: '#8A0303' }} to="/TVideo7">4 or more times a week</NavLink>
+      <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303' }} to="/TVideo7">4 or more times a week</NavLink>
       </div>
 
       <ReactHowler

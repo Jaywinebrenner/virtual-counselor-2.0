@@ -32,9 +32,9 @@ return (
         `}</style>
 
       <div className='question-div'>
-        <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.5rem', color: '#8A0303', marginBottom: '90px', lineHeight: '40px'}} to="/TVideo2">Continue being Virtually Counseled</NavLink>
+        <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', marginBottom: '90px', lineHeight: '40px'}} to="/TVideo2">Continue being Virtually Counseled</NavLink>
         <br></br>
-        <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.5rem', color: '#8A0303', lineHeight: '40px' }} to="/TVideo4">No. Virtual Counselor is not for me</NavLink>
+        <NavLink className='question-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: '#8A0303', lineHeight: '40px' }} to="/TVideo4">No. Virtual Counselor is not for me</NavLink>
       </div>
 
       <ReactHowler
