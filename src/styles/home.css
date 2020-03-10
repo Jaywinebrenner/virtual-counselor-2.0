@@ -3,6 +3,7 @@
 
 .home-body {
   height: 140vh;
+  width: 100%;
   background-position: center center;
 }
 
@@ -50,6 +51,6 @@
 }
 
 .tagline{
-  color: white;
+  color: #071E58;
   text-shadow: 2px 2px 15px #feffb3;
 }

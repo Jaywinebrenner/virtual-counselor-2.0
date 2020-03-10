@@ -6,10 +6,6 @@
   line-height: 55px;
 }
 
-.navbar-about-text {
-  -webkit-animation: text-shadow-drop-center 0.6s both;
-  animation: text-shadow-drop-center 0.6s both;
-}
 
 .hand-icon{
   width: 80px;
@@ -37,4 +33,29 @@
   100% {
     text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
   }
+}
+
+.bootstrap-navbar{
+  opacity: .3;
+}
+
+.navbar-about-text {
+
+	color: gray;
+	:hover {
+		color: white;
+		cursor: pointer;
+	}
+}
+
+.navbar.navbar-expand{
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav{
+  display: inline-block;
+float: none;
 }
