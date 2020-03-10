@@ -4,7 +4,7 @@ import Reggie from '../media/reggie.png';
 import Lindsey from '../media/lindsey.png';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import '../styles/home.css';
+import '../styles/counselorDisplay.css';
 
 const CounselorDisplay = (props) => {
   function handleGlow(e) {

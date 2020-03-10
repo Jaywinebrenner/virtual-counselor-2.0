@@ -12,12 +12,7 @@
   padding: 0 100px 300px;
 }
 
-.middle-div{
-  margin: 70px;
-  text-align: center;
-}
-
-.welcome {
+.about-text {
   font-family: 'Shadows Into Light';
   color: white;
   font-size: 3rem;
@@ -25,36 +20,16 @@
   line-height: 0;
 }
 
-.please-choose-text{
+.about-please-choose-text{
   font-size: 1.3rem;
   color: white;
   text-shadow: 2px 2px 15px #feffb3;
 }
-
-.counselor-column{
-  text-align: center;
-}
-
-.credentials-reggie{
-
-  line-height: .5;
-  margin-right: 70px;
-}
-
-.credentials-lindsey{
-  line-height: .5;
-  margin-left: 70px;
-}
-
-.tagline{
-  color: white;
-}
-
 
 .email{
   font-size: 1.3rem;
   color: white;
   text-shadow: 2px 2px 15px #feffb3;
   margin-top: 30px;
-padding-bottom: 12rem;
+  padding-bottom: 12rem;
 }
