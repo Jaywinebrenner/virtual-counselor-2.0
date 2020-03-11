@@ -75,12 +75,12 @@ return (
         <ReactHowler
           src={lindseyAhh}
           playing={playingLindsey}
-          volume={.7}
+          volume={.4}
           />
         <ReactHowler
           src={reggieAhh}
           playing={playingReggie}
-          volume={.7}
+          volume={.4}
           />
     </div>
   )
