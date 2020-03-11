@@ -13,16 +13,29 @@ const CounselorDisplay = (props) => {
 
   const [hoveredLindsey, setHoveredLindsey] = useState(false);
   const [hoveredReggie, setHoveredReggie] = useState(false);
-
+  const [playingReggie, setPlayingReggie] = useState(false);
+  const [playingLindsey, setPlayingLindsey] = useState(false);
 
 const toggleHoverLindsey = () => {
+  startLindsey()
   setHoveredLindsey(!hoveredLindsey);
   console.log(hoveredLindsey)
 }
 
 const toggleHoverReggie = () => {
+  startReggie()
   setHoveredReggie(!hoveredReggie);
   console.log(hoveredReggie)
+}
+
+const startReggie = () => {
+  console.log(playingReggie)
+  setPlayingReggie(true)
+}
+
+const startLindsey = () => {
+  console.log(playingLindsey)
+  setPlayingLindsey(true)
 }
 
 return (
@@ -61,12 +74,12 @@ return (
 
         <ReactHowler
           src={lindseyAhh}
-          playing={false}
+          playing={playingLindsey}
           volume={.7}
           />
         <ReactHowler
           src={reggieAhh}
-          playing={false}
+          playing={playingReggie}
           volume={.7}
           />
     </div>
