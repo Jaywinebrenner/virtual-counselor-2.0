@@ -1,9 +1,8 @@
 
-
+Continue watching react native tutorials 
 
 # Virtual Counselor
 
-BEGIN STUDYING REACT NATIVE 2
 
   ![enter image description here](https://i.imgur.com/Gq70Yas.gif)
 
