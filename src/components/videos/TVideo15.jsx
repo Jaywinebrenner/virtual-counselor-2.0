@@ -34,7 +34,7 @@ const TVideo15 = () => {
           `}</style>
 
         <ResponsivePlayer
-          url='https://virtual-counselor-video.s3-us-west-2.amazonaws.com/T3.3.mp4'
+          url='https://virtual-counselor-video.s3-us-west-2.amazonaws.com/T3.3NEW.mp4'
           onProgress={handleWatchComplete}
           />
 
