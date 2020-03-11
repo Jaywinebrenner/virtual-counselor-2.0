@@ -17,11 +17,9 @@ class App extends React.Component {
   super(props);
   this.state = {
     playing: true,
-    fadeIn: false,
-    fadeOut: false
   };
   this.handleMusicToggle = this.handleMusicToggle.bind(this);
-  this.handleFadeOut = this.handleFadeOut.bind(this);
+
 }
 
 handleMusicToggle() {
@@ -30,17 +28,14 @@ handleMusicToggle() {
   console.log('The link was clicked.');
 }
 
-handleFadeOut() {
-  this.state.fadeIn = true;
-  console.log(this.state)
-}
+
 
 render(){
   return (
     <div>
       <Route
         exact path='/'
-        render={(props) => <Home {...props} onMusicToggle={this.handleMusicToggle} onFadeOut={this.handleFadeOut}
+        render={(props) => <Home {...props} onMusicToggle={this.handleMusicToggle} 
         />}
         />
 

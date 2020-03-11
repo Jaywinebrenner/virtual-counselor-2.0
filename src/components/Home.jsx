@@ -33,7 +33,6 @@ function Home(props){
 
   Home.propTypes = {
   onMusicToggle: PropTypes.func,
-  onFadeOut: PropTypes.func
 };
 
   export default Home;
