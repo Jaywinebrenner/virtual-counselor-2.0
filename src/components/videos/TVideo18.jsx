@@ -11,7 +11,7 @@ const TVideo18 = () => {
   const [watchComplete, setWatchComplete] = useState(false)
 
   if (watchComplete === true) {
-    return <Redirect to='./TQuestions13' />
+    return <Redirect to='./TQuestions12' />
   }
 
   const handleWatchComplete = ({played}) =>  {
