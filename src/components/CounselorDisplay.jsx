@@ -19,32 +19,23 @@ const CounselorDisplay = (props) => {
 const toggleHoverLindsey = () => {
   startLindsey()
   setHoveredLindsey(!hoveredLindsey);
-  console.log(hoveredLindsey)
 }
 
 const toggleHoverReggie = () => {
   startReggie()
   setHoveredReggie(!hoveredReggie);
-  console.log(hoveredReggie)
 }
 
 const startReggie = () => {
-  console.log(playingReggie)
-  setPlayingReggie(true)
+setPlayingReggie(true)
 }
 
 const startLindsey = () => {
-  console.log(playingLindsey)
   setPlayingLindsey(true)
 }
 
 return (
   <div>
-
-    <script jsx>{`
-
-        `}</script>
-
       <Container className='meet-your-counselor-div'>
         <Row>
           <Col xs='6'className='counselor-column-lindsey'>
@@ -53,7 +44,6 @@ return (
                 onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
                 src={ Lindsey } onClick={props.onMusicToggle} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
             </Link>
-
             <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
             <p className='credentials-lindsey'>Psy.D.</p>
           </Col>
@@ -68,9 +58,9 @@ return (
           </Col>
         </Row>
       </Container>
-      <div className='please-choose-div'>
-        <h4 className='please-choose-text'>Please choose from one of our professionally trained counseling experts</h4>
-      </div>
+        <div className='please-choose-div'>
+          <h4 className='please-choose-text'>Please choose from one of our professionally trained counseling experts</h4>
+        </div>
 
         <ReactHowler
           src={lindseyAhh}

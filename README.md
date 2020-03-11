@@ -1,30 +1,6 @@
 # Virtual Counselor
 
-
-<!-- alternate navbar stylings for Header -->
-<Navbar style={{ backgroundColor: 'rgba(255,255,255, 0.3)', opactiy: '.3'}} bg="" variant="dark">
-
-<Nav style={{textAlign: 'center'}}>
-  <Nav.Link style={{fontSize: '1.7rem', textAlign: 'center'}} href="/">Home</Nav.Link>
-    <Nav.Link style={{fontSize: '1.7rem'}} href="/#about">About</Nav.Link>
-</Nav>
-
-</Navbar>
-
-
-<!-- orgininal navbar stylings -->
-<div className='navbar-wrapper'>
-<FaRegHandshake className='left-hand-icon'/>
-
-<Switch>
-  <NavLink  onClick={props.onFadeOut} onMouseOut={removeChange} style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
-</Switch>
-
-<NavLink  onMouseOut={removeChange} className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem', color: 'gray', marginBottom: '90px', marginRight: '3rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
-
-<FaRegHandshake className='hand-icon'/>
-</div>
-
+BEGIN STUDYING REACT NATIVE
 
   ![enter image description here](https://i.imgur.com/Gq70Yas.gif)
 
