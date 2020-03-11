@@ -15,13 +15,13 @@ function Home(props){
     <style jsx>{`
 
       `}</style>
-    <Header/>
+    <Header onFadeOut = {props.onFadeOut}/>
       <div className='middle-div'>
         <h1 className='welcome'>Welcome to</h1>
         <h1 className='vc-header'>Virtual Counselor</h1>
         <p className='tagline'>A place to receive counseling. Virtually.</p>
       </div>
-      <CounselorDisplay onMusicToggle = {props.onMusicToggle}/>
+      <CounselorDisplay onMusicOff = {props.onMusicOff}/>
 
       <div className='footer'>
       </div>
@@ -32,7 +32,8 @@ function Home(props){
   }
 
   Home.propTypes = {
-  onMusicToggle: PropTypes.func,
+  onMusicOff: PropTypes.func,
+  onMusicOn: PropTypes.func,
 };
 
   export default Home;

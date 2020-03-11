@@ -18,7 +18,7 @@ const Header = (props) => {
       <div className='navbar-wrapper'>
         <FaRegHandshake className='left-hand-icon'/>
         <Switch>
-          <NavLink  className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/">Home</NavLink>
+          <NavLink  className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/home">Home</NavLink>
         </Switch>
         <NavLink  className='navbar-about-text' className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem',marginBottom: '90px', marginRight: '3rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
         <FaRegHandshake className='hand-icon'/>

@@ -17,37 +17,61 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      playing: true,
+      playing: false,
     };
-    this.handleMusicToggle = this.handleMusicToggle.bind(this);
+    this.handleMusicOn = this.handleMusicOn.bind(this);
+    this.handleMusicOff = this.handleMusicOff.bind(this);
   }
 
-  handleMusicToggle() {
+  handleMusicOn() {
+    this.state.playing = true;
+    console.log(this.state.playing)
+  }
+
+  handleMusicOff() {
     this.state.playing = false;
+    console.log(this.state.playing)
   }
 
   render(){
     return (
       <div>
 
-        <Route path='/landing' component={ Landing } />
-        <Route
-          exact path='/'
-          render={(props) => <Home {...props} onMusicToggle={this.handleMusicToggle}
-          />}
-          />
-        <Route path="/cured" component={ Cured } />
-        <Route path="/about" component={ About } />
-        <Route path="/login" component={ Login } />
-        <Route path="/video1" component={ Video1 } />
-        <Route path="/tvideo1" component={ TVideo1 } />
-        <Import/>
-        <ReactHowler
-          src={choir}
-          playing={this.state.playing}
-          loop='true'
-          volume={.3}
-          />
+
+          <Route
+            exact path='/'
+            render={(props) => <Landing {...props} onMusicOn={this.handleMusicOn}
+            />}
+            />
+          <Route
+            path='/home'
+            render={(props) => <Home {...props} onMusicOn={this.handleMusicOn}
+            onMusicOff={this.handleMusicOff}
+            />}
+            />
+
+
+            <Route
+              exact path='/cured'
+              render={(props) => <Cured {...props} onMusicOn={this.handleMusicOn}
+              />}
+              />
+
+
+            <Route path="/about" component={ About } />
+            <Route path="/login" component={ Login } />
+            <Route path="/video1" component={ Video1 } />
+            <Route path="/tvideo1" component={ TVideo1 } />
+            <Import/>
+
+          <ReactHowler
+            src={choir}
+            playing={this.state.playing}
+            loop={true}
+            volume={.2}
+            />
+
+
 
       </div>
     );

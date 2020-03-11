@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import sky1 from '../media/sky1.jpg';
-import choir from '../media/choir.mp3';
+import cured from '../media/cured.mp3';
 import ReactHowler from 'react-howler';
 import Linkify from 'react-linkify';
 import '../styles/cured.css';
+import PropTypes from 'prop-types';
 
 function Cured(props) {
 
@@ -18,21 +19,26 @@ function Cured(props) {
           `}</style>
 
 
-        <div className='cured-div' onClick={props.onMusicToggle}>
+        <div className='cured-div' onClick={props.onMusicOn}>
           <h1 className='you-are'>You are</h1>
-      <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured'  to="/">CURED</NavLink>
+      <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured'  to="/home">CURED</NavLink>
         </div>
 
         <ReactHowler
-          src={choir}
+          src={cured}
           playing={true}
-          loop={true}
-          volume={.2}
+          loop={false}
+          volume={1}
           />
 
 
       </div>
     );
   }
+
+  Cured.propTypes = {
+    onMusicOn: PropTypes.func
+  };
+
 
   export default Cured;

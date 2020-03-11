@@ -5,34 +5,25 @@ import choir from '../media/choir.mp3';
 import ReactHowler from 'react-howler';
 import Linkify from 'react-linkify';
 import '../styles/landing.css';
+import PropTypes from 'prop-types';
 
 function Landing(props) {
 
   return (
     <div style={{ backgroundImage:`url(${sky1})` }} className="landing-body">
 
-
-      <style jsx>{`
-
-
-          `}</style>
-
-
         <div className='cured-div' onClick={props.onMusicToggle}>
           <h1 className='you-are'>Please click here to</h1>
-          <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured'  to="/">ENTER</NavLink>
+          <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured' onClick={props.onMusicOn} to="/home">ENTER</NavLink>
         </div>
-
-        <ReactHowler
-          src={choir}
-          playing={true}
-          loop={true}
-          volume={.2}
-          />
-
 
       </div>
     );
   }
+
+  Landing.propTypes = {
+    onMusicOn: PropTypes.func
+  };
+
 
   export default Landing;

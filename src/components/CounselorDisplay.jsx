@@ -42,14 +42,14 @@ return (
             <Link to="/TVideo1">
               <img
                 onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
-                src={ Lindsey } onClick={props.onMusicToggle} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
+                src={ Lindsey } onClick={props.onMusicOff} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
             </Link>
             <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
             <p className='credentials-lindsey'>Psy.D.</p>
           </Col>
           <Col className='counselor-column-reggie' xs='6'>
             <Link to="/Video1">
-              <img src={ Reggie } onClick={props.onMusicToggle} className={hoveredReggie ? 'reggie-glow-onhover' : 'reggie-image'}
+              <img src={ Reggie } onClick={props.onMusicOff} className={hoveredReggie ? 'reggie-glow-onhover' : 'reggie-image'}
               onMouseEnter={toggleHoverReggie} onMouseLeave={toggleHoverReggie}
               alt='Counselor named Reggie'/>
             </Link>
@@ -77,7 +77,7 @@ return (
 }
 
 CounselorDisplay.propTypes = {
-  onMusicToggle: PropTypes.func
+  onMusicOff: PropTypes.func
 };
 
 export default CounselorDisplay
