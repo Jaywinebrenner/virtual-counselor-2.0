@@ -26,7 +26,7 @@
 </div>
 
 
-  ![enter image description here](https://i.imgur.com/thM8V59.gif)
+  ![enter image description here](https://i.imgur.com/Gq70Yas.gif)
 
 ## By **Jay Winebrenner**
 
