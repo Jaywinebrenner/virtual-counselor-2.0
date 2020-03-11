@@ -20,11 +20,13 @@ const toggleHoverEnter = () => {
   return (
     <div style={{ backgroundImage:`url(${sky1})` }} className="landing-body">
 
-        <div className='cured-div'                   onMouseEnter={toggleHoverEnter}
-          onMouseLeave={toggleHoverEnter}
+        <div className='cured-div'
           onClick={props.onMusicToggle}>
           <h1 className='you-are'>Please click here to</h1>
-          <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className={hoveredEnter ? 'landing-glow' : 'landing'} onClick={props.onMusicOn} to="/home">ENTER</NavLink>
+          <NavLink
+            onMouseEnter={toggleHoverEnter}
+            onMouseLeave={toggleHoverEnter}
+            style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className={hoveredEnter ? 'landing-glow' : 'landing'} onClick={props.onMusicOn} to="/home">ENTER</NavLink>
         </div>
 
       </div>
