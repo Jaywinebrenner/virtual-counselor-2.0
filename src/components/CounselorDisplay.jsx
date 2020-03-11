@@ -8,15 +8,19 @@ import '../styles/counselorDisplay.css';
 
 const CounselorDisplay = (props) => {
 
-  const [hovered, setHovered] = useState(true);
+  const [hoveredLindsey, setHoveredLindsey] = useState(false);
+  const [hoveredReggie, setHoveredReggie] = useState(false);
 
 
-const toggleHover = () => {
-  setHovered(!hovered);
-  console.log(hovered)
+const toggleHoverLindsey = () => {
+  setHoveredLindsey(!hoveredLindsey);
+  console.log(hoveredLindsey)
 }
 
-
+const toggleHoverReggie = () => {
+  setHoveredReggie(!hoveredReggie);
+  console.log(hoveredReggie)
+}
 
 return (
   <div>
@@ -29,7 +33,9 @@ return (
         <Row>
           <Col xs='6'className='counselor-column-lindsey'>
             <Link to="/TVideo1">
-              <img  onMouseEnter={toggleHover} onMouseLeave={toggleHover} src={ Lindsey } onClick={props.onMusicToggle} alt="Counselor named Lindsey" className="lindsey-image"/>
+              <img
+                onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
+                src={ Lindsey } onClick={props.onMusicToggle} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
             </Link>
 
             <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
@@ -37,7 +43,9 @@ return (
           </Col>
           <Col className='counselor-column-reggie' xs='6'>
             <Link to="/Video1">
-              <img src={ Reggie } onClick={props.onMusicToggle} className="reggie-image" alt='Counselor named Reggie'/>
+              <img src={ Reggie } onClick={props.onMusicToggle} className={hoveredReggie ? 'reggie-glow-onhover' : 'reggie-image'}
+              onMouseEnter={toggleHoverReggie} onMouseLeave={toggleHoverReggie}
+              alt='Counselor named Reggie'/>
             </Link>
             <p className='credentials-reggie'>Dr. Reggie Gunderson</p>
             <p className='credentials-reggie'>LPC, MSEd</p>
