@@ -4,12 +4,12 @@ import sky1 from '../media/sky1.jpg';
 import choir from '../media/choir.mp3';
 import ReactHowler from 'react-howler';
 import Linkify from 'react-linkify';
-import '../styles/cured.css';
+import '../styles/landing.css';
 
 function Landing(props) {
 
   return (
-    <div style={{ backgroundImage:`url(${sky1})` }} className="cured-body">
+    <div style={{ backgroundImage:`url(${sky1})` }} className="landing-body">
 
 
       <style jsx>{`
