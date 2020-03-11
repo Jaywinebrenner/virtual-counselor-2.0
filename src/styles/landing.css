@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+
+.landing-body {
+  height: 140vh;
+  background-position: center center;
+  padding-top: 0;
+}
+
+.landing-middle-div{
+  margin: 6rem;
+  text-align: center;
+}
+
+.click-here-to {
+  text-align: center;
+  font-family: 'Shadows Into Light';
+  color: white;
+  font-size: 3rem;
+  padding-top: 25%;
+  line-height: 0;
+}
+
+.landing-div{
+  text-align: center;
+    height: 140vh;
+}

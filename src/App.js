@@ -9,6 +9,7 @@ import About from './components/About';
 import Login from './components/Login';
 import Video1 from './components/videos/Video1';
 import TVideo1 from './components/videos/TVideo1';
+import Landing from './components/Landing';
 import ReactHowler from 'react-howler';
 import choir from './media/choir.mp3';
 
@@ -28,6 +29,8 @@ class App extends React.Component {
   render(){
     return (
       <div>
+
+        <Route path='/landing' component={ Landing } />
         <Route
           exact path='/'
           render={(props) => <Home {...props} onMusicToggle={this.handleMusicToggle}

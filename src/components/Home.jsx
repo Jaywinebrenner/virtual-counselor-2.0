@@ -15,7 +15,7 @@ function Home(props){
     <style jsx>{`
 
       `}</style>
-    <Header onFadeOut = {props.onFadeOut}/>
+    <Header/>
       <div className='middle-div'>
         <h1 className='welcome'>Welcome to</h1>
         <h1 className='vc-header'>Virtual Counselor</h1>
