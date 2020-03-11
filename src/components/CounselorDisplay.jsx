@@ -5,6 +5,9 @@ import Lindsey from '../media/lindsey.png';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import '../styles/counselorDisplay.css';
+import lindseyAhh from './../media/lindsey-ahh.mp3';
+import reggieAhh from './../media/reggie-ahh.mp3';
+import ReactHowler from 'react-howler';
 
 const CounselorDisplay = (props) => {
 
@@ -55,6 +58,17 @@ return (
       <div className='please-choose-div'>
         <h4 className='please-choose-text'>Please choose from one of our professionally trained counseling experts</h4>
       </div>
+
+        <ReactHowler
+          src={lindseyAhh}
+          playing={false}
+          volume={.7}
+          />
+        <ReactHowler
+          src={reggieAhh}
+          playing={false}
+          volume={.7}
+          />
     </div>
   )
 }
