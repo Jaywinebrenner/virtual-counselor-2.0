@@ -24,7 +24,7 @@ const toggleHoverEnter = () => {
           onMouseLeave={toggleHoverEnter}
           onClick={props.onMusicToggle}>
           <h1 className='you-are'>Please click here to</h1>
-          <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='landing' onClick={props.onMusicOn} to="/home">ENTER</NavLink>
+          <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className={hoveredEnter ? 'landing-glow' : 'landing'} onClick={props.onMusicOn} to="/home">ENTER</NavLink>
         </div>
 
       </div>
