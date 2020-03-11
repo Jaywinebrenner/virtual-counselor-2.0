@@ -12,13 +12,6 @@ function Cured(props) {
   return (
     <div style={{ backgroundImage:`url(${sky1})` }} className="cured-body">
 
-
-      <style jsx>{`
-
-
-          `}</style>
-
-
         <div className='cured-div' onClick={props.onMusicOn}>
           <h1 className='you-are'>You are</h1>
       <NavLink style={{ textDecoration: 'none', color: 'white', textAlign: 'center' }} className='cured'  to="/home">CURED</NavLink>
@@ -30,7 +23,6 @@ function Cured(props) {
           loop={false}
           volume={1}
           />
-
 
       </div>
     );
