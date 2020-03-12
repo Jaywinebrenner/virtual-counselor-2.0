@@ -11,7 +11,7 @@ import CounselorDisplay from './CounselorDisplay';
 function Home(props){
 
   return (
-    <div style={{ backgroundImage:`url(${sky1})` }} className={props.fadeOut ?'fadeOut':'home-body'}>
+    <div style={{ backgroundImage:`url(${sky1})`, objectFit: 'contain' }} className={props.fadeOut ?'fadeOut':'home-body'}>
     <style jsx>{`
 
       `}</style>

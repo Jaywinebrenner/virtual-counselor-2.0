@@ -31,7 +31,7 @@ const Video2 = () => {
           .lesson-wrapper{
             background-color: black;
             text-align: center;
-            height: 250vh;
+            height: 1100px;
           }
 
           `}</style>

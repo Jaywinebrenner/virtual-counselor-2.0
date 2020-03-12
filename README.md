@@ -1,5 +1,5 @@
 
-Continue watching react native tutorials 9:10
+Tinker around with contain and various other css stuff to figure out how to make this thing behave how i want...
 
 # Virtual Counselor
 
