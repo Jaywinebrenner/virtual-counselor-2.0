@@ -1,5 +1,5 @@
 
-Continue watching react native tutorials 
+Continue watching react native tutorials 8:30
 
 # Virtual Counselor
 
