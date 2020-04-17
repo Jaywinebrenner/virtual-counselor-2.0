@@ -1,5 +1,5 @@
 
-Tinker around with contain and various other css stuff to figure out how to make this thing behave how i want...
+
 
 # Virtual Counselor
 
