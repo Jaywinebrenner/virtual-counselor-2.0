@@ -9,9 +9,11 @@ import CounselorDisplay from './CounselorDisplay';
 
 
 function Home(props){
+  {console.log("PROPS", props)}
 
   return (
-    <div style={{ backgroundImage:`url(${sky1})`, objectFit: 'contain' }} className={props.fadeOut ?'fadeOut':'home-body'}>
+    <div id="homeContainer">
+      
     <style jsx>{`
 
       `}</style>

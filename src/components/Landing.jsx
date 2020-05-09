@@ -11,11 +11,9 @@ function Landing(props) {
 
   const [hoveredEnter, setHoveredEnter] = useState(false);
 
-
 const toggleHoverEnter = () => {
   setHoveredEnter(!hoveredEnter);
 }
-
 
   return (
     <div style={{ backgroundImage:`url(${sky1})` }} className="landing-body">

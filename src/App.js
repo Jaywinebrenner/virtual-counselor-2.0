@@ -12,6 +12,7 @@ import TVideo1 from './components/videos/TVideo1';
 import Landing from './components/Landing';
 import ReactHowler from 'react-howler';
 import choir from './media/choir.mp3';
+import './App.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -35,7 +36,7 @@ class App extends React.Component {
 
   render(){
     return (
-      <div>
+      <div className='appWrapper'>
 
 
           <Route
