@@ -38,23 +38,23 @@ return (
   <div className='wrapper'>
     <div className='meet-your-counselor-div'>
       <div className='counselor-column-lindsey'>
-        {/* <Link to="/TVideo1">
+        <Link to="/TVideo1">
           <img
             onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
             src={ Lindsey } onClick={props.onMusicOff} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
         </Link>
         <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
-        <p className='credentials-lindsey'>Psy.D.</p> */}
+        <p className='credentials-lindsey'>Psy.D.</p>
       </div>
 
         <div className='counselor-column-reggie'>
-            {/* <Link to="/Video1">
+            <Link to="/Video1">
               <img src={ Reggie } onClick={props.onMusicOff} className={hoveredReggie ? 'reggie-glow-onhover' : 'reggie-image'}
               onMouseEnter={toggleHoverReggie} onMouseLeave={toggleHoverReggie}
               alt='Counselor named Reggie'/>
             </Link>
             <p className='credentials-reggie'>Dr. Reggie Gunderson</p>
-            <p className='credentials-reggie'>LPC, MSEd</p> */}
+            <p className='credentials-reggie'>LPC, MSEd</p>
         </div>
     </div>
 

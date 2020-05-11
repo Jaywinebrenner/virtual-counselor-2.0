@@ -1,0 +1,67 @@
+
+      videoheader-wrapper{
+      height: 100%;
+      background-color: burlywood;
+      }
+
+      .videoheader-text {
+        font-size: 5rem;
+        position: sticky;
+        color: #8A0303;
+        padding-top: 50px;
+        animation: fadeIn ease 10s;
+        -webkit-animation: fadeIn ease 15s;
+        -moz-animation: fadeIn ease 15s;
+        -o-animation: fadeIn ease 15s;
+        -ms-animation: fadeIn ease 15s;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      
+        opacity: .3
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:.3;
+        }
+      }
+
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:.3;
+        }
+      }
+
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:.3;
+        }
+      }
+
+      @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:.3;
+        }
+      }
+
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:.3;
+        }
+    }

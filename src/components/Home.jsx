@@ -13,10 +13,7 @@ function Home(props){
 
   return (
     <div id="homeContainer">
-      
-    <style jsx>{`
 
-      `}</style>
     <Header onFadeOut = {props.onFadeOut}/>
       <div className='middle-div'>
         <h1 className='welcome'>Welcome to</h1>

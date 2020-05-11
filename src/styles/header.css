@@ -1,39 +1,50 @@
-.navbar-wrapper{
-  background-color: white;
-  opacity: .3;
-  height: 60px;
-  text-align: center;
-  line-height: 55px;
-}
 
 
 .hand-icon{
-  width: 80px;
-  margin-bottom: 10px;
+  /* width: 8rem; */
+  /* margin-bottom: 10px; */
 }
 
 .left-hand-icon{
-  width: 80px;
-  margin-bottom: 10px;
-  margin-right: 3rem;
+  /* width: 8rem; */
+  /* margin-bottom: 10px;
+  margin-right: 3rem; */
 }
 
-@-webkit-keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
+.navbar-wrapper{
+  /* max-width: 100%; */
+  background-color: white;
+  opacity: .3;
+  height: 3rem;
+  line-height: 3rem;
+  /* display: flex; */
+  /* align-items: center; */
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+   justify-items: center;
+    align-items: center;
+    text-align: center;
+
 }
-@keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
+
+.col-1{
+  text-align: center;
 }
+.col-2{
+  text-align: center;
+  padding: 0;
+}
+
+.col-3{
+  text-align: center;
+    padding: 0;
+}
+
+.col-4{
+  text-align: center;
+}
+
+
 
 .bootstrap-navbar{
   opacity: .3;
@@ -41,16 +52,5 @@
 
 .navbar-about-text {
 	color: gray;
-}
+} 
 
-.navbar.navbar-expand{
-  float:none;
-  margin:0 auto;
-  display: block;
-  text-align: center;
-}
-
-.navbar-nav{
-  display: inline-block;
-float: none;
-}

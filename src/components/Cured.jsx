@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 function Cured(props) {
 
   return (
-    <div style={{ backgroundImage:`url(${sky1})` }} className="cured-body">
+    <div className="cured-body">
 
         <div className='cured-div' onClick={props.onMusicOn}>
           <h1 className='you-are'>You are</h1>

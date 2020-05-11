@@ -14,16 +14,28 @@ import styled from 'styled-components';
 const Header = (props) => {
 
   return(
-    <div>
+
       <div className='navbar-wrapper'>
-        <FaRegHandshake className='left-hand-icon'/>
+
+        <div className='col-1'>
+           <FaRegHandshake className='left-hand-icon'/>
+        </div>
+
+
+        <div className='col-2'>
         <Switch>
           <NavLink  className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem', marginBottom: '90px', marginRight: '5rem',fontWeight: 'bold' }} to="/home">Home</NavLink>
+          {/* <h3>HOME</h3> */}
         </Switch>
+        </div>
+          <div className='col-3'>
         <NavLink  className='navbar-about-text' className='navbar-about-text' style={{ textDecoration: 'none', fontSize: '1.3rem',marginBottom: '90px', marginRight: '3rem',fontWeight: 'bold' }}  to="/about">About</NavLink>
+        </div>
+            <div className='col-4'>
         <FaRegHandshake className='hand-icon'/>
+        </div>
       </div>
-    </div>
+   
   )
 }
 
