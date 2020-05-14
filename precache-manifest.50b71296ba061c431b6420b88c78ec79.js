@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1540c9303750b16179bedb0ea7eab32f",
+    "revision": "509cd9dff4ba58d653bd877e320bf25c",
     "url": "/virtual-counselor-2.0/index.html"
   },
   {
-    "revision": "bad63e4bc9fb2690f828",
+    "revision": "912c1ed132a51f1178da",
     "url": "/virtual-counselor-2.0/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "d139bd3f3b1e551c4d0b",
-    "url": "/virtual-counselor-2.0/static/css/main.9f72f407.chunk.css"
+    "revision": "48f81ed3b4d3edd60489",
+    "url": "/virtual-counselor-2.0/static/css/main.e0d7dac3.chunk.css"
   },
   {
-    "revision": "bad63e4bc9fb2690f828",
-    "url": "/virtual-counselor-2.0/static/js/2.125cd0eb.chunk.js"
+    "revision": "912c1ed132a51f1178da",
+    "url": "/virtual-counselor-2.0/static/js/2.85d4f4a2.chunk.js"
   },
   {
     "revision": "108fb3bdf508c233ad8c482c42cea3cc",
-    "url": "/virtual-counselor-2.0/static/js/2.125cd0eb.chunk.js.LICENSE.txt"
+    "url": "/virtual-counselor-2.0/static/js/2.85d4f4a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d139bd3f3b1e551c4d0b",
-    "url": "/virtual-counselor-2.0/static/js/main.c1da5d9c.chunk.js"
+    "revision": "48f81ed3b4d3edd60489",
+    "url": "/virtual-counselor-2.0/static/js/main.d486323c.chunk.js"
   },
   {
     "revision": "45b3cabebc159b9c7d87",
