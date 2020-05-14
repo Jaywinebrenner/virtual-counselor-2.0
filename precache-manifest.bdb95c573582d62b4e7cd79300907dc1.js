@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6a09f9a4c65cad7841f4d4e8ba8aa6a",
+    "revision": "1540c9303750b16179bedb0ea7eab32f",
     "url": "/virtual-counselor-2.0/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/virtual-counselor-2.0/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "dac43324b48b5ce3d588",
-    "url": "/virtual-counselor-2.0/static/css/main.607c23fd.chunk.css"
+    "revision": "d139bd3f3b1e551c4d0b",
+    "url": "/virtual-counselor-2.0/static/css/main.9f72f407.chunk.css"
   },
   {
     "revision": "bad63e4bc9fb2690f828",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/virtual-counselor-2.0/static/js/2.125cd0eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dac43324b48b5ce3d588",
+    "revision": "d139bd3f3b1e551c4d0b",
     "url": "/virtual-counselor-2.0/static/js/main.c1da5d9c.chunk.js"
   },
   {
