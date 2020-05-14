@@ -5,6 +5,7 @@ import chime3 from '../../media/chime3.mp3';
 import ReactHowler from 'react-howler';
 import roomtone from '../../media/roomtone4.mp3';
 import VideoHeader from '../VideoHeader';
+import '../../styles/video.css';
 
 // I recognize this is an unusual format.... so, shall we begin?
 
