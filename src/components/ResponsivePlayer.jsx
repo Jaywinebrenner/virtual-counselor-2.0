@@ -9,6 +9,7 @@ const ResponsivePlayer = ({ url, onProgress }) => {
 
         <ReactPlayer
           className='react-player'
+          id='react-player-for-badly-filmed-video'
           url={url}
           width='100%'
           height='100%'
