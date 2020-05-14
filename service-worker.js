@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/virtual-counselor-2.0/precache-manifest.50b71296ba061c431b6420b88c78ec79.js"
+  "/virtual-counselor-2.0/precache-manifest.bdb95c573582d62b4e7cd79300907dc1.js"
 );
 
 self.addEventListener('message', (event) => {
