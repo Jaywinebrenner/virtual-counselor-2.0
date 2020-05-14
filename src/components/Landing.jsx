@@ -11,18 +11,16 @@ function Landing(props) {
 
   const [hoveredEnter, setHoveredEnter] = useState(false);
 
-
 const toggleHoverEnter = () => {
   setHoveredEnter(!hoveredEnter);
 }
 
-
   return (
-    <div style={{ backgroundImage:`url(${sky1})` }} className="landing-body">
+    <div className="landing-body">
 
-        <div className='cured-div'
+      <div className='landing-middle-div'
           onClick={props.onMusicToggle}>
-          <h1 className='you-are'>Please click here to</h1>
+        <h1 className='click-here-to'>Please click here to</h1>
           <NavLink
             onMouseEnter={toggleHoverEnter}
             onMouseLeave={toggleHoverEnter}

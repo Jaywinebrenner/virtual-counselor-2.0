@@ -29,6 +29,72 @@ const Questions8 = () => {
             line-height: 3.5rem;
           }
 
+          @media screen and (max-width: 950px) , screen and (max-height: 950px) {
+          .react-player {
+            position: absolute;
+          top:9vh;
+          left: 0;
+          position: fixed;
+          bottom: 0;
+          margin-bottom: 0;
+      }   
+          }
+
+
+@media screen and (max-width: 1050px) , screen and (max-height: 950px) {
+    .react-player {
+      position: absolute;
+    top:12vh;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+}
+@media screen and (max-width: 1250px) , screen and (max-height: 950px) {
+    .react-player {
+      position: absolute;
+    top:17vh;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 820px) {
+    .react-player {
+      position: absolute;
+    top:28vh;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 490px) {
+    .react-player {
+      position: absolute;
+    top:36vh;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 415px) {
+    .react-player {
+      position: absolute;
+    top:37vh;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+}
+}
+
           `}</style>
 
         <div className='question-div'>

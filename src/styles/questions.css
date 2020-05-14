@@ -1,0 +1,26 @@
+        .entire-question-wrapper{
+          background-color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+
+        .question-div {
+          text-align: center;
+          margin: auto;
+          width: 60%;
+          padding: 10px;
+          height: 200px;
+        }
+
+        .question-text{
+          margin-top: 50px;
+          line-height: 3rem;
+          font-size: 1.3rem;
+          color: #8A0303;
+          margin-bottom: 90px;
+          text-decoration: none;
+        }
+
+

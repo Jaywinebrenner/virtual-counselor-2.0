@@ -3,21 +3,24 @@
 
 
 .landing-body {
-  height: 150vh;
-  background-position: center center;
-  padding-top: 0;
+  background-image: url(../media/sky1.jpg);
+  object-fit: 'fill';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 }
 
 .landing-middle-div{
-  margin: 6rem;
-  text-align: center;
+text-align: center;
 }
 
 .click-here-to {
   text-align: center;
   font-family: 'Shadows Into Light';
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 25%;
   line-height: 0;
 }
@@ -30,8 +33,8 @@
 .landing{
   font-family: 'Shadows Into Light';
   color: white;
-  font-size: 12rem;
-  line-height: 12rem;
+  font-size: 7rem;
+  line-height: 7rem;
   text-shadow: 2px 2px 15px #feffb3;
   text-decoration: none;
   border-radius: 10px;
@@ -41,8 +44,8 @@
 .landing-glow{
   font-family: 'Shadows Into Light';
   color: white;
-  font-size: 12rem;
-  line-height: 12rem;
+  font-size: 7rem;
+  line-height: 7rem;
   text-shadow: 2px 2px 95px #feffb3;
   text-decoration: none;
   border-radius: 10px;

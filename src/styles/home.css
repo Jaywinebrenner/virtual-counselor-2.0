@@ -1,37 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
+
+#homeContainer{
+  background-image: url(../media/sky1.jpg);
+  object-fit: 'fill';
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
 .home-body {
   height: 150vh;
   width: 100%;
   background-position: center center;
 }
 
-.home-body-fade-out{
-  opacity:0;
-  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
-}
-
-.home-body-fade-in{
-     opacity:1;
-     transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
-}
-
 .middle-div{
-  margin: 6rem;
+
   text-align: center;
+  justify-content: center;
 }
 
 .welcome {
   font-family: 'Shadows Into Light';
   color: white;
   font-size: 3rem;
-  margin-top: 20px;
-  line-height: 0;
+  margin-top: 2rem;
+
 }
 
 .vc-header {
-  position: relative;
+
   background-image: -webkit-linear-gradient(#D2EFF7 0%, #ADE5F6 46%, #ffffff 50%,#071E58  54%, #379FBF 58%, #2e85bf 90%, #0b2b40 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,12 +41,11 @@
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
   margin: 0;
-  line-height: 1;
+  line-height: .1;
   text-align: center;
-  margin-top: 0;
   font-family: 'Shadows Into Light';
   color: white;
-  font-size: 7rem;
+  font-size: calc(5rem + 3.6vw);
   line-height: 5rem;
   text-shadow: 2px 2px 15px #feffb3;
 }
@@ -52,4 +53,13 @@
 .tagline{
   color: #071E58;
   text-shadow: 2px 2px 15px #feffb3;
+}
+
+
+@media screen and (min-width: 800px) , screen and (min-height: 700px) {
+.middle-div{
+  margin-bottom: 7rem;
+  text-align: center;
+  justify-content: center;
+}
 }

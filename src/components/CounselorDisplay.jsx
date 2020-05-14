@@ -35,19 +35,19 @@ const startLindsey = () => {
 }
 
 return (
-  <div>
-      <Container className='meet-your-counselor-div'>
-        <Row>
-          <Col xs='6'className='counselor-column-lindsey'>
-            <Link to="/TVideo1">
-              <img
-                onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
-                src={ Lindsey } onClick={props.onMusicOff} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
-            </Link>
-            <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
-            <p className='credentials-lindsey'>Psy.D.</p>
-          </Col>
-          <Col className='counselor-column-reggie' xs='6'>
+  <div className='wrapper'>
+    <div className='meet-your-counselor-div'>
+      <div className='counselor-column-lindsey'>
+        <Link to="/TVideo1">
+          <img
+            onMouseEnter={toggleHoverLindsey} onMouseLeave={toggleHoverLindsey}
+            src={ Lindsey } onClick={props.onMusicOff} alt="Counselor named Lindsey" className={hoveredLindsey ? 'lindsey-glow-onhover' : 'lindsey-image'}/>
+        </Link>
+        <p className='credentials-lindsey'>Dr. Lindsey Stanfield</p>
+        <p className='credentials-lindsey'>Psy.D.</p>
+      </div>
+
+        <div className='counselor-column-reggie'>
             <Link to="/Video1">
               <img src={ Reggie } onClick={props.onMusicOff} className={hoveredReggie ? 'reggie-glow-onhover' : 'reggie-image'}
               onMouseEnter={toggleHoverReggie} onMouseLeave={toggleHoverReggie}
@@ -55,12 +55,12 @@ return (
             </Link>
             <p className='credentials-reggie'>Dr. Reggie Gunderson</p>
             <p className='credentials-reggie'>LPC, MSEd</p>
-          </Col>
-        </Row>
-      </Container>
-        <div className='please-choose-div'>
-          <h4 className='please-choose-text'>Please choose from one of our professionally trained counseling experts</h4>
         </div>
+    </div>
+
+    <div className='please-choose-div'>
+      <h4 className='please-choose-text'>Please choose from one of our professionally trained counseling experts</h4>
+    </div>
 
         <ReactHowler
           src={lindseyAhh}

@@ -7,13 +7,10 @@ import '../styles/about.css';
 function Home(){
 
   return (
-    <div style={{ backgroundImage:`url(${sky1})` }} className="about-body">
+    <div className="about-body">
     <Header />
 
-    <style jsx>{`
-      `}</style>
-
-        <div className='middle-div'>
+        <div className='about-middle-div'>
           <h1 className='about-text'>About</h1>
           <h1 className='vc-header'>Virtual Counselor</h1>
         </div>

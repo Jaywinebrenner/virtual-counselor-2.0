@@ -20,7 +20,7 @@ const TVideo1 = () => {
       setWatchComplete(true)
     }
   }
-
+ 
   return (
     <div className='lesson-wrapper'>
     <VideoHeader />
